@@ -1,0 +1,88 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f9;
+    padding: 2rem;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #2e86de;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+    margin-top: 0.5rem;
+  }
+  
+  button:hover {
+    background-color: #1b4f72;
+  }
+  
+  section {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .status-label {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    color: white;
+  }
+  
+  .status-pending {
+    background-color: #f39c12;
+  }
+  
+  .status-ready {
+    background-color: #27ae60;
+  }
+  
+  .status-served {
+    background-color: #7f8c8d;
+  }
+  
+  .order-box, .stock-box, .bill-box {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    background-color: #fafafa;
+  }
+  
+  .order-box p, .stock-box p, .bill-box p {
+    margin: 0.5rem 0;
+  }
+  
+  .order-box strong {
+    color: #2c3e50;
+  }
+  

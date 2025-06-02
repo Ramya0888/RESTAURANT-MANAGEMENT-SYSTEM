@@ -1,0 +1,79 @@
+body {
+    background: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #2a2f45;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #455a64;
+    margin: 20px 0;
+}
+
+.stock-list {
+    margin-bottom: 30px;
+}
+
+.stock-item {
+    background: #e1f5fe;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    color: #0277bd;
+}
+
+.bill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.bill-box {
+    background-color: #ffffff;
+    border: 2px solid #cfd8dc;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.bill-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bill-box h3 {
+    color: #1e88e5;
+    margin-bottom: 10px;
+}
+
+.bill-box p {
+    margin: 6px 0;
+    font-size: 1rem;
+}
+
+button {
+    padding: 8px 14px;
+    border: none;
+    background-color: #1e88e5;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
